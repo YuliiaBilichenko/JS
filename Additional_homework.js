@@ -30,3 +30,27 @@ console.log(typeof true);
 console.log(typeof "reading");
 console.log(typeof null);
 console.log(typeof notInitialized);
+
+/* Task - 5 */
+
+let myUndefined;
+console.log(myUndefined);
+
+/* Task - 6 */
+
+let line1 = "Lovin";
+let line2 = "It!";
+let line3 = "I'm";
+
+let resultLine = line3 + " " + line1 + " " + line2; //change this line
+
+console.log(resultLine);
+
+/* Task - 7 */
+
+let booksRead = 2;
+let booksGoal = 5;
+let booksLeft = booksGoal - booksRead;
+console.log(
+  "I need to read " + booksLeft + " more books to reach my goal of " + booksGoal
+);
